@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+.navbar-nav {
+            margin-left: auto;
+            font-size:20px;
+        }
+
+        .logo {
+            margin-left: 30px;
+            font-size: 30px;
+        }
+        .header{
+            
+            background-repeat: no-repeat;
+            background-image: linear-gradient(rgba(30, 76, 119, 0.8),rgba(0, 255, 255, 0.4),rgba(0,255,255,0.3)),url(D4.jpg);
+            background-size: cover;
+            position: absolute;
+            height:900px;
+            width:100%;
+            clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%,0 0);
+            color:white;
+            
+        }
+        .header-2{
+            font-size:x-large;
+            text-align:center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .heading{
+            font-size: 60px;
+            font-weight: bolder;
+        }
+        .section2{
+            margin-top: 990px;
+            margin-bottom:100px;
+        }
+        .card{
+            border-radius: 10px;
+            margin-left:auto;
+            margin-right: auto;
+            background-color:cadetblue;
+            color : white;
+            
+        }
+        .Shead{
+                font-weight:bolder;
+                font-size: larger;
+            }
+            .Spara{
+                font-weight:bold;
+                font-size: medium;
+            }
+        .sectionoffered{
+            background: #f7f7f9;
+            padding:50px 0;
+            margin-bottom:50px;
+
+        }
+        .row{
+            margin-right: 0px;
+            max-width:100%;
+           
+        }
+        i{
+            color: #2fccd0;
+        }
+        .heading2 h1{
+            text-align:center;
+            margin:80px 0 5px 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            font-size:60px;
+        }
+         .underline{
+            color:darkred;
+            
+         }
+         .row2{
+             display:flex;
+             z-index: -1;
+             background: linear-gradient(160deg, #16c9f6 55%, #fff 0%);
+         }
+         .column2{
+             margin-left: auto;
+             margin-right: auto;
+             margin-bottom: 50px;
+         }
+         .card2{
+             border-radius: 0px;
+             background-color: white;
+             box-shadow:10px 10px 5px #aaaaaa;;
+            }
+         .card2:hover{
+             transform: translateY(5%);
+         }
+         .card-header{
+             color:black;
+             font-size: 30px;
+             text-align: center;
+         }
+         .card-body{
+            color:black;
+            font-size: 20px;
+            list-style-type: none;
+            text-align: center;
+            }
+            span{
+                font-size: 34px;
+                font-weight: bolder;
+                color:darkslategray;
+            }
+            .heading3{
+             text-align:center;
+            margin:0px 0 5px 0;   
+            }
+            .heading3 h1{
+                font-size: 60px;
+                font-weight: bold;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .underline2{
+                color:darkred;
+                margin-bottom: 35px;;
+            }
+            .card-body2{
+                color:black;
+                font-size: 20px;
+                text-align: justify;
+                color:black;
+                padding:5px;
+            }
+            .card-text2{
+                background: whitesmoke;
+                margin:15px;   
+            }
+            .heading4 h1{
+                margin-top: 40px;
+                margin-bottom: 20px;
+                text-align:center;
+                font-size: 60px;
+                font-weight: bold;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+            }
+            .heading4 p{
+                    text-align:center;
+                    font-size:24px;
+            }
+            .contact-edit{
+                margin:40px 0 40px 0;
+                
+            }
+            .contact{
+                z-index:-1;
+                background: linear-gradient(340deg, #16c9f6 55%, #fff 0%);
+            }
+            .submit{
+                text-align: center;
+                 margin:20px 0 40px 0;
+                 border-radius: 15px;
+
+            }
+            .heading4 h3{
+                margin-top: 60px;
+                margin-bottom: 20px;
+                text-align:center;
+                font-size: 30px;
+                font-weight: bold;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+            }
+            .border{
+                border-radius: 100px 0 0 100px!important;
+                min-width:145px;
+                min-height:42px;
+                
+            }
+            
+            .input-group-text{
+                color:white;
+                background-color: #16c9f6;
+                border-radius: 0 100px 100px 0;
+                min-width: 130px;
+                min-height: 40px;
+            }
+            
+            @media(max-width:1005px){
+                .row2{
+                    display:block;
+                    z-index:-1;
+                    background: linear-gradient(20deg, #16c9f6 55%, #fff 0%);
+                }
+                .card2:hover{
+                transform: translateY(4%);
+                }
+            }
+        @media (max-width:995px){
+            .progressstyyle {
+               margin-left: 55px; 
+            }
+            .servicediv{
+                margin-left: 35px;   
+            }
+            .column1{
+                border: 2px solid darkcyan;
+                margin-bottom:20px;
+                border-radius: 10px;
+                margin-top: 20px;
+            }
+            .service-icons{
+                display:none;
+            }
+        }
+        @media (max-width:512px){
+            .Shead{
+                font-weight:bolder;
+                font-size: larger;
+            }
+            .Spara{
+                font-weight:bold;
+                font-size: medium;
+            }
+        }
+
+        @media (max-width:500px) {
+            .logo {
+                margin-left: 0px;
+            }
+            .header-2{
+                line-height: 27px; 
+                  font-size: 20px;
+                      }
+                    
+            .heading{
+                margin-top:30px;
+                font-size: 40px;
+                font-weight: bolder;
+            }
+        }
+
+        
+        @media (max-width: 1225px){
+            
+            .header-2{
+                margin-top:5px;
+            } 
+            
+        }
+        @media (max-width:585px){
+            .row{
+                width:90%;
+                margin-left:18px;
+            }
+            .column1{
+                text-align:justify;
+            }
+            
+        }
